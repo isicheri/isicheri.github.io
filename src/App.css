@@ -6,4 +6,7 @@
 
 .App {
   background-image: url("./assests/images/5509862.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
 }

@@ -1,20 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { LinkCon, MainCon, NavCon, TitleCon, Nav, IconCon, HamCon, ButtonCon } from './Navbar.styles'
 import { AiFillTwitterCircle, AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import {RxHamburgerMenu} from "react-icons/rx"
 import {GrClose} from "react-icons/gr"
 
 const Navbar = () => {
+
+  const [toggle,setToggle] = useState(true)
+
+  const handleToggle = () => {
+if(toggle) {
+setToggle(false);
+}else {
+  setToggle(true);
+  }
+  }
   return (
    <MainCon>
     <NavCon>
    
-      <Nav>
-      <TitleCon>
+
+    <TitleCon>
         <h1>
-          .D
+          .DI
         </h1>
       </TitleCon>
+
+      <Nav open={toggle}>
+    
       <LinkCon> 
       <ul>
         {
@@ -52,8 +65,12 @@ const Navbar = () => {
 
       </Nav>
 
-      <HamCon>
-       <RxHamburgerMenu size={"2rem"} />
+      <HamCon onClick={handleToggle}>
+
+        {
+          toggle ?   <RxHamburgerMenu size={"2rem"} /> : <GrClose size={"2rem"} />
+        }
+     
        </HamCon>
 
     </NavCon>
