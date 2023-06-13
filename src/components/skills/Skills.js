@@ -1,7 +1,7 @@
 import React from 'react'
 import { SkillCon, MainCon } from './Skills.styles'
 import {FaJava,FaReact,FaGit,FaNodeJs} from "react-icons/fa"
-import {SiJavascript,SiSpringboot,SiExpress,SiNestjs,SiStyledcomponents,SiGnubash,SiCss3} from "react-icons/si"
+import {SiJavascript,SiSpringboot,SiExpress,SiNestjs,SiStyledcomponents,SiGnubash,SiCss3,SiTypescript} from "react-icons/si"
 // import {BiLogoNodejs,BiLogoHtml5,BiLogoCss3} from "react-icons/bi"
 import {AiFillHtml5} from "react-icons/ai"
 import Carousel from 'react-elastic-carousel'
@@ -26,8 +26,8 @@ const Skills = () => {
   <Carousel enableAutoPlay autoPlaySpeed={1500} breakPoints={breakPoints}>
  {
   skillSet.map(({id,skill}) => (
-    <div class="card" key={id}>
-    <div class="card__content">
+    <div className="card" key={id}>
+    <div className="card__content">
       {
         skill
       }
@@ -90,6 +90,10 @@ const skillSet = [
 {
   id: 11,
   skill: <SiGnubash size={"2rem"} color='white'/>
+},
+{
+  id: 12,
+  skill: <SiTypescript size={"2rem"} color='white'/>
 }
 ]
 
