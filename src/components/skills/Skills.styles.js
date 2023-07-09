@@ -6,10 +6,11 @@ color: white;
 display: flex;
 justify-content: center;
 align-items: center;
+scroll-snap-align: center;
 `;
 
 export const MainCon = styled.div`
-background: purple;
+// background: purple;
 width: 80%;
 height: 60vh;
 // border-radius: 50px;
@@ -19,9 +20,16 @@ height: 60vh;
 
 
 border-radius: 50px;
-background: #670881;
-box-shadow:  20px 20px 60px #58076e,
-             -20px -20px 60px #760994;
+// background: #670881;
+// box-shadow:  20px 20px 60px #58076e,
+//              -20px -20px 60px #760994;
+
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);;
 
              display: flex;
              justify-content: space-between;

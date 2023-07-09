@@ -5,8 +5,18 @@
 }
 
 .App {
-  background-image: url("./assests/images/5509862.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background: url("./assests/images/5509862.jpg"); */
+   background-color: #00163f;
+  /* background-repeat: no-repeat;
+  background-position: center; */
 background-size: cover;
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;
+overflow-y: auto;
+scrollbar-width: none;
 }
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+

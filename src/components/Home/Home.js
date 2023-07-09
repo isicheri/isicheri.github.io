@@ -1,5 +1,6 @@
 import React from 'react'
-import { Con1, Con2, HomeCon } from './Home.styles'
+import { Con1, Con2, HomeCon } from './Home.styles';
+import "./Home.css"
 
 const Home = () => {
   return (

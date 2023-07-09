@@ -42,6 +42,7 @@ const Skills = () => {
   )
 }
 
+// eslint-disable-next-line 
 const skillSet = [
   {
     id: 0,

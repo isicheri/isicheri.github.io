@@ -6,6 +6,8 @@ color: white;
 display: flex;
 justify-content: center;
 align-items: center;
+scroll-snap-align: center;
+
 
 .colorful-form {
     width: 70%;
