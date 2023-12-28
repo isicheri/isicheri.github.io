@@ -1,7 +1,7 @@
 import React from 'react'
 import { SkillCon, MainCon } from './Skills.styles'
-import {FaJava,FaReact,FaGit,FaNodeJs} from "react-icons/fa"
-import {SiJavascript,SiSpringboot,SiExpress,SiNestjs,SiStyledcomponents,SiGnubash,SiCss3,SiTypescript} from "react-icons/si"
+import {FaReact,FaGit,FaNodeJs} from "react-icons/fa"
+import {SiJavascript,SiExpress,SiNestjs,SiStyledcomponents,SiGnubash,SiCss3,SiTypescript,SiSolidity,SiEthereum} from "react-icons/si"
 // import {BiLogoNodejs,BiLogoHtml5,BiLogoCss3} from "react-icons/bi"
 import {AiFillHtml5} from "react-icons/ai"
 import Carousel from 'react-elastic-carousel'
@@ -58,7 +58,7 @@ const skillSet = [
   },
   {
     id: 3,
-    skill: <FaJava size={"2rem"} color='white' />
+    skill: <SiEthereum size={"2rem"} color='white' />
   },
 {
   id: 4,
@@ -78,7 +78,7 @@ const skillSet = [
 },
 {
   id: 8,
-  skill: <SiSpringboot size={"2rem"} color='white'/>
+  skill: <SiSolidity size={"2rem"} color='white'/>
 },
 {
   id: 9,

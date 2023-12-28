@@ -11,7 +11,7 @@ const Home = () => {
     HI I'M DOMINION ISICHERI
   </h1>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquid, laudantium maiores nemo quidem quis culpa assumenda mollitia reprehenderit animi explicabo, numquam repellendus nam maxime voluptatum asperiores neque quod nulla.
+  An open-minded and passionate software developer with a knack for architecting robust and scalable solutions. Proficient in languages like javascript,typescript and solidity i specialize in crafting efficient server side logic and database management,Experienced in Restful Api design and building web3 based application, I bring commitment to optimizing performance and data security. Continuously exploring new technologies and methodologies to stay current in the technology space.
   </p>
    </div>
    <div className="button-con">

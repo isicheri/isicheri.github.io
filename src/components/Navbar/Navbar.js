@@ -46,7 +46,7 @@ setToggle(false);
       <IconCon>
        {
        IconArray.map(({id,icon,to}) => (
-        <a key={id} href={to} >
+        <a key={id} href={to} target='_blank' rel="noreferrer" >
          {
           icon
          }
@@ -96,17 +96,17 @@ const IconArray = [
   {
     id:0,
     icon: <AiFillLinkedin size={"2rem"}/>,
-    to: "",
+    to: "https://www.linkedin.com/in/dominion-isicheri-1a7a91256",
   },
   {
     id: 1,
     icon: <AiFillTwitterCircle size={"2rem"}/>,
-    to: "",
+    to: "https://twitter.com/darcck_js",
   },
   {
     id: 2,
     icon: <AiFillGithub size={"2rem"}/>,
-    to: "",
+    to: "https://github.com/isicheri/",
   }
 ]
 export default Navbar
